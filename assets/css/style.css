@@ -38,6 +38,8 @@
     clear: both;
     overflow: auto;
     background-color: lightgrey;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 #main-content {
@@ -69,7 +71,7 @@ hr {
 
 #main-content-body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    margin: 15px;
+    margin: 20px;
 }
 
 footer {
