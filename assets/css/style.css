@@ -32,25 +32,30 @@
     float: right;
 }
 
-#main-content {
+#content {
     clear: both;
     overflow: auto;
+    background-color: lightgrey;
+}
+
+#main-content {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
     width: 960px;
     margin: 0 auto;
 }
-
-#content {
-
-}
  
-#content-header {
+#main-content-header {
     color: #4aaaa5;
 }
 
-#content-body {
+#main-content-body {
 
 }
 
 footer {
+    text-align: center;
+    background-color: #666666;
+    padding-top: 30px;
     margin: 0 auto;
 }
