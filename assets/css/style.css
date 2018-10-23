@@ -2,23 +2,33 @@
     width: 960px;
     background-color: yellow;
     margin-left:10%;
+    font-size: 15px;
+    padding: 20px;
 }
 
-#first {
+#left {
     background-color: #4aaaa5;
     color: white;
     float: left;
+    padding: 5px;
 }
 
-#second {
+#right-1 {
     float: right;
 }
 
-#third {
+#right-divider-1 {
     float: right;
 }
 
-#fourth {
+#right-2 {
+    float: right;
+}
+
+#right-divider-2 {
+    float: right;
+}
+#right-3 {
     float: right;
 }
 
