@@ -1,25 +1,30 @@
-header {
-
+#container {
+    width: 960px;
+    background-color: yellow;
+    margin-left:10%;
 }
 
 #first {
-
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
 }
 
 #second {
-
+    float: right;
 }
 
 #third {
-
+    float: right;
 }
 
 #fourth {
-
+    float: right;
 }
 
 #main-content {
-
+    clear: both;
+    overflow: auto;
 }
 
 #content {
@@ -27,7 +32,7 @@ header {
 }
  
 #content-header {
-
+    color: #4aaaa5;
 }
 
 #content-body {
