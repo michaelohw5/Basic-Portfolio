@@ -1,40 +1,57 @@
-.container {
+/* CONTAINER OF THE HEADER */
+.header-wrapper {
     width: 960px;
-    background-color: yellow;
+    background-color: grey;
     margin: 0 auto;
     font-size: 15px;
-    padding: 20px;
 }
 
-#left {
-    background-color: #4aaaa5;
+/* MAKES LINKS WITHOUT UNDERLINE */
+a {
+    text-decoration: none;
+    color: #cccccc;
+}
+
+/* header-name LINK */
+a.header-name-link {
     color: white;
+}
+
+/* header-name WHEN IT IS LINKED */
+a.haeder-name-link:link {
+    color: white;
+}
+
+/* HOVERING OVER header-name */
+a.header-name-link:hover {
+    color: white;
+}
+
+/* VISITED LINK OVER header-name */
+a.header-name-link:visited {
+    color: white;
+}
+
+/* WHEN header-name IS ACTIVE */
+a.haeder-name-link:active {
+    color: white;
+}
+
+.header-name {
     float: left;
-    padding: 5px;
-    font-size: 35px;
+    color: white;
+    background-color: #4aaaa5;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-#right-1 {
-    float: right;
+.header-links {
+    float:right;
+    margin-top: 30px;
+    color: #cccccc;
 }
 
-#right-divider-1 {
-    float: right;
-}
-
-#right-2 {
-    float: right;
-}
-
-#right-divider-2 {
-    float: right;
-}
-
-#right-3 {
-    float: right;
-}
-
-#content {
+.contents-wrapper {
     clear: both;
     overflow: auto;
     background-color: lightgrey;
@@ -42,38 +59,56 @@
     padding-bottom: 20px;
 }
 
-#main-content {
-    background-color: #ffffff;
+.main-content {
+    background-color: white;
     width: 960px;
     margin: 0 auto;
 }
  
 #main-content-header {
     color: #4aaaa5;
-    font-size: 35px;
-    margin: 15px;
-    padding: 20px;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    border-bottom-style: solid;
 }
 
+/* WAS USING HR TO CREATE DIVIDER LINE BUT FIXED BOTTOM BORDER TO MAKE THIS OBSOLETE */
+/* 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-    width: 97%;
-    margin: 0 auto;
-}
+} */
+
 
 #main-content-body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    margin: 20px;
+    margin: 10px;
+}
+
+#content {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#profile-pic {
+    float: left;
+    padding-right: 10px;
+}
+
+p {
+    /* CLEARING MESSES UP THE CODE */
+    margin-left: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 footer {
+    clear: both;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     text-align: center;
     background-color: #666666;
-    padding-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin: 0 auto;
+    border-top-style: solid;
+    border-width: 10px;
+    border-color: #4aaaa5;
 }
