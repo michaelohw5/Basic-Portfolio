@@ -73,7 +73,7 @@ a.haeder-name-link:active {
     margin: 0 auto;
 }
  
-#main-content-header {
+.main-content-header {
     color: #4aaaa5;
     font-family: 'Georgia', Times, "Times New Roman", serif;
     margin-left: 20px;
@@ -82,33 +82,27 @@ a.haeder-name-link:active {
     border-bottom-style: solid;
 }
 
-/* WAS USING HR TO CREATE DIVIDER LINE BUT FIXED BOTTOM BORDER TO MAKE THIS OBSOLETE */
-/* 
-hr {
-} */
-
-
-#main-content-body {
+.main-content-body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin: 10px;
 }
 
-#main-content-body-contact {
+.main-content-body-contact {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin: 20px;
 }
 
-#content {
+.content {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding-bottom: 10px;
 }
 
-#profile-pic {
+.profile-pic {
     float: left;
     padding-right: 10px;
 }
 
 p {
-    /* CLEARING MESSES UP THE CODE */
     margin-left: 10px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: grey;
@@ -131,31 +125,31 @@ textarea {
     resize: none;
 }
 
-#name {
+.name {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-#name-field {
+.name-field {
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
-#email {
+.email {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin-top: 15px;
 }
 
-#email-field {
+.email-field {
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
-#message {
+.message {
     margin-top: 15px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-#message-field {
+.message-field {
     margin-top: 5px;
     margin-bottom: 15px;
 }
@@ -172,4 +166,18 @@ textarea {
     margin-bottom: 15px;
     color: white;
     text-align: center;
+}
+
+.portfolio-content {
+    margin-left: 10px;
+}
+
+.portfolio-pic {
+    margin: 10px;
+}
+
+.port-first-row {
+}
+
+.port-second-row {  
 }
