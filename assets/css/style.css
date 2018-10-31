@@ -230,5 +230,10 @@ h3 {
     height: 200px;
 }
 
+label {
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+}
+
 
 
