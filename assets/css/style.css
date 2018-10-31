@@ -222,10 +222,12 @@ h3 {
 
 .input-boxes {
     width: 100%;
+    height: 25px;
 }
 
 .text-boxes {
     width: 100%;
+    height: 200px;
 }
 
 
